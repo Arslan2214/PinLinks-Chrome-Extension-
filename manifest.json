@@ -2,6 +2,12 @@
   "manifest_version": 3,
   "name": "PinLinks",
   "description": "PinLinks, allows users to save, organize & easy management of web links.",
+  "icons": {
+    "16": "asserts/icons/icon16.png",
+    "32": "asserts/icons/icon32.png",
+    "48": "asserts/icons/icon48.png",
+    "128": "asserts/icons/icon128.png"
+  },
   "version": "1.0",
   "action": {
     "default_popup": "index.html"

@@ -1,20 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    box-shadow: 0;
-    font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 
-html, body {
-    width: 100%;
-    border-radius: 15px;
+html,
+body {
+  font-size: 62%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 body {
-    width: 150px;
-    padding: 25px;
-    /* background: pink; */
+  width: 30rem;
+  padding: 1.8rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+hr {
+  height: 0.2rem;
+  margin: 0.4rem auto;
+  background-color: cadetblue;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+#logo {
+  color: #87ceeb;
+}
+#logo > span {
+  color: #5f9ea0;
+}
+
+#Colletions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 0.4rem;
+  text-align: start;
+}
+
+.sub-head {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    color: hsl(0, 0%, 40%);
+}
+
+.collection {
+    width: 100%;
+    padding: 0.6rem 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    /* border-radius: 4px; */
+    box-shadow: 0 1px 1px 0 hsl(0, 0%, 70%);
+    &:active {
+        box-shadow: 0 0 2px 0 hsl(0, 0%, 74%);
+    }
 }
