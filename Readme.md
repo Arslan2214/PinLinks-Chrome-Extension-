@@ -44,7 +44,7 @@ This extension is designed to be simple and intuitive, making it accessible even
 
 </h3>
 
-- [ ]  Create basic Setup (Including GitHub connect)
+- [X]  Create basic Setup (Including GitHub connect)
 - [ ]  Defining basic Layout (Includes Responsive-Design)
 - [ ]  Connecting to Local-Storage
 
